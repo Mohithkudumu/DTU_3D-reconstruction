@@ -1,0 +1,25 @@
+name: scan65-from-scratch
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy=1.26
+  - scipy
+  - pillow
+  - matplotlib
+  - pyyaml
+  - pytorch=2.3
+  - torchvision
+  - pytorch-cuda=12.1
+  - pip:
+      - opencv-python
+      - open3d==0.18.0
+      - scikit-image
+      - imageio
+      - trimesh
+      - transformers
+      - huggingface_hub
+      - git+https://github.com/facebookresearch/vggt.git

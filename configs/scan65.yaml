@@ -1,0 +1,15 @@
+dataset_root: ../DTU/scan65
+output_root: outputs
+scan: 65
+selected_views: [25, 28, 22, 40, 44]
+# View IDs in this download match image and camera archive indices (verified).
+evaluation_views: [0, 1, 2, 3, 4]
+camera_archive: cameras.npz
+image_dir: image
+mask_dir: mask
+confidence_percentile: 35
+max_depth: 10.0
+vggt_checkpoint: null
+vggt_image_size: 518
+voxel_length: 0.01
+sdf_trunc: 0.04
